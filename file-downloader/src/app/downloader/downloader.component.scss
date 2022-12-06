@@ -1,0 +1,80 @@
+.app-dowloader {
+    padding: 2rem 4rem;
+    // height: 31.8rem;
+    height: 46rem;
+}
+
+h1 {
+    text-align: center;
+    box-shadow: var(--combox-shadow1) inset, var(--combox-shadow4) inset;
+}
+
+.messagedisplay {
+    display: none;
+    padding: 0.4rem 0;
+}
+
+.messagedisplay h2 {
+    font-size: 1.2rem;
+}
+
+.filedownloader {
+    display: none;
+    padding: 0.48rem;
+}
+
+.filedownloader h4 {
+    font-size: 1.68rem;
+}
+
+.filedownloader div {
+    padding: 0 0.8rem;
+    font-size: 1.2rem;
+}
+
+.filetext {
+    margin-top: -2.12rem;
+    margin-left: 2rem;
+}
+
+.iconpdf {
+    color: var(--red);
+    font-size: 2.2rem;
+}
+
+.genreport {
+    padding: 0.4rem 0.8rem;
+    height: 2.4rem;
+    background: var(--orgred);
+    border: none;
+    border-radius: 0.22rem;
+}
+
+.download {
+    display: flex;
+    background: var(--orgred);
+    border: none;
+    border-radius: 0.22rem;
+}
+
+.download i {
+    color: var(--white);
+    width: 1.84rem;
+    padding: 0.24rem;
+    font-size: 2rem;
+}
+
+.download a {
+    display: none;
+    color: var(--white) !important;
+    margin-top: 0.54rem;
+    font-weight: bold;
+    margin-left: 0.24rem;
+    letter-spacing: 0.06rem;
+    text-decoration: none;
+}
+
+.download:hover a {
+    display: block;
+    transition: display 2s ease-in-out !important;
+}

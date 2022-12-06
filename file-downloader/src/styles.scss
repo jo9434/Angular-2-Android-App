@@ -1,0 +1,51 @@
+/* You can add global styles to this file, and also import other style files */
+:root {
+    --mali: 'Mali';
+    --roboto: 'Roboto';
+    --raleway: 'Raleway';
+    --black: #000;
+    --white: #fff;
+    --dgrblue: dodgerblue;
+    --lgtrgray: rgb(222, 222, 222);
+    --lgtrblk: rgba(0, 0, 0, 0.281);
+    --red: red;
+    --orgred: linear-gradient(45deg, rgba(253, 93, 71, 1) 35%, rgba(234, 64, 111, 1) 65%);
+    --combox-shadow1: -0.001rem -0.001rem 0.2rem 0.2rem var(--lgtrgray);
+    --combox-shadow2: -0.001rem -0.001rem 0.2rem 0.1rem var(--black);
+    --combox-shadow3: -0.001rem -0.001rem 0.4rem 0.1rem var(--black);
+    --combox-shadow4: -0.001rem -0.001rem 1.2rem 0.1rem var(--lgtrgray);
+    --combox-shadow5: -0.001rem -0.001rem 1.2rem 0.1rem var(--lgtrblk);
+    --combox-shadow6: -0.001rem -0.001rem 0.2rem 0.1rem var(--lgtrblk);
+    --combox-shadow7: -0.001rem -0.001rem 1.2rem 0.1rem var(--lgtrgray);
+}
+
+* { box-sizing: border-box; }
+
+html { scroll-behavior: smooth !important; }
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden !important;
+    background-color: var(--white) !important;
+    font-family: var(--raleway);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* Custom Scrollbar */
+body::-webkit-scrollbar {
+    width: 0.4rem;
+    height: 0.4rem;
+    border-radius: 0.8rem;
+}
+
+body::-webkit-scrollbar-track {
+    border: 0.25em solid var(--orgred);
+    background: var(--orgred);
+    border-radius: 0.8rem;
+    margin: 0.5em;
+}
+
+body::-webkit-scrollbar-thumb { border-radius: 0.8rem; background-color: var(--dgrblue); }
+/* Custom Scrollbar */

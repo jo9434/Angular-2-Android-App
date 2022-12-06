@@ -1,0 +1,14 @@
+<!-- <p>downloader works!</p> -->
+<div id="appdowloader" class="app-dowloader">
+    <h1>Report Downloader</h1>
+    <button id="genreport" class="genreport" onclick="generateReport();"><p style="color: var(--white);">Generate Report</p></button>
+    <div id="messagedisplay" class="messagedisplay">
+        <h2 id="messagetext">{{message}}</h2>
+    </div>
+    <div id="filedownloader" class="filedownloader">
+        <h4>Your Report is Generated...</h4>
+        <div><i class="iconpdf fa-solid fa-file-pdf"></i> <p class="filetext"> {{filename}}</p></div>
+        <h6 style="margin-top: 1.2rem; font-size: 1.2rem;">Click here to download:</h6>
+        <button id="download" class="download"><i class="fa-solid fa-file-arrow-down"></i><a href={{filepath}} download>Download File</a></button>
+    </div>
+</div>

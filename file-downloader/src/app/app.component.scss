@@ -1,0 +1,92 @@
+.app-navbar {
+    width: auto;
+    height: 3.4rem;
+    padding: 0 2rem;
+    background: var(--orgred);
+}
+
+.app-name {
+    color: var(--white);
+    text-transform: capitalize;
+}
+
+.fapp-navbar {
+    // bottom: -2.5rem;
+    position: relative;
+    width: auto;
+    height: 2.4rem;
+    padding: 0.54rem 2rem;
+    background: var(--orgred);
+}
+
+.fapp-navbar i {
+    font-size: 1.4rem;
+    margin-right: 2rem;
+    color: var(--white);
+}
+
+.sub-menu {
+    display: none;
+    width: 12rem;
+    height: 12.22rem;
+    text-align: center;
+    // margin-left: 13.3rem;
+    margin-left: 10rem;
+    margin-top: -14.64rem;
+    border-radius: 0.24rem;
+    background: var(--dgrblue);
+    animation: submenu 1.2s ease-in-out;
+}
+
+.sub-menu p {
+    cursor: pointer;
+    padding: 0.28rem 0;
+    color: var(--white);
+    margin-bottom: 0.48rem;
+    letter-spacing: 0.04rem;
+}
+
+.sub-menu p:nth-child(1) {
+    border-top-left-radius: 0.24rem;
+    border-top-right-radius: 0.24rem;
+}
+
+.sub-menu p:nth-child(5) {
+    border-bottom-left-radius: 0.24rem;
+    border-bottom-right-radius: 0.24rem;
+}
+
+.sub-menu p:nth-child(1):hover {
+    background: var(--orgred);
+}
+
+.sub-menu p:nth-child(2):hover {
+    background: var(--orgred);
+}
+
+.sub-menu p:nth-child(3):hover {
+    background: var(--orgred);
+}
+
+.sub-menu p:nth-child(4):hover {
+    background: var(--orgred);
+}
+
+.sub-menu p:nth-child(5):hover {
+    background: var(--orgred);
+}
+
+.openMenu {
+    display: block;
+}
+
+@keyframes submenu {
+    from {
+        opacity: 0;
+        transform: scale(0,1) rotate(45deg);
+        margin-left: 12rem;
+    }
+    to {
+        opacity: 1;
+    }
+}
